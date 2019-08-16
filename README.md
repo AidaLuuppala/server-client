@@ -1,8 +1,8 @@
-# server-client
+# Building and running the Server-Client project
 
 **1. Download or clone this project.**
 
-**2. Go to the root file of the project, where is pom.xml file. Build projet in terminal with command:**
+**2. Go to the root file of the project (where is pom.xml file). Open terminal and build projet with command:**
 
 ```bash
 mvn package
@@ -14,7 +14,7 @@ mvn package
 java -cp target/server-project-1.0-SNAPSHOT.jar com.project.server.Server
 ```
 
-(use sudo if you want to connect to port below 1024)
+*(use sudo if you want to connect to port below 1024)*
 
 The program asks you which port you want to connect to. Type the port number and press enter.
 
@@ -24,7 +24,7 @@ The program asks you which port you want to connect to. Type the port number and
 java -cp target/server-project-1.0-SNAPSHOT.jar com.project.server.Client
 ```
 
-(again use sudo if you want to connect to port below 1024)
+*(again use sudo if you want to connect to port below 1024)*
 
 Type the same port number you gave to the Server.java program and press enter.
 
